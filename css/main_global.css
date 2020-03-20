@@ -8563,9 +8563,9 @@ main {
 .v2 .home-celebration__text {
   top: 50%;
   left: 50%;
-  -webkit-transform: rotate(-23deg) translate(-39%, 0);
-      -ms-transform: rotate(-23deg) translate(-39%, 0);
-          transform: rotate(-23deg) translate(-39%, 0); }
+  -webkit-transform: rotate(-22deg) translate(-39%, 0);
+      -ms-transform: rotate(-22deg) translate(-39%, 0);
+          transform: rotate(-22deg) translate(-39%, 0); }
 
 @-webkit-keyframes bearMoon {
   0%, 100% {
@@ -33053,6 +33053,12 @@ a.show-more__button:hover {
       height: 75px;
       width: 90%;
       margin: auto; }
+
+.home-cafe__tag {
+  position: absolute;
+  width: 25%;
+  top: 56%;
+  left: 58%; }
 
 .popup-pie {
   /* Ручной readmore */

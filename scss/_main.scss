@@ -395,7 +395,7 @@ main {
     &__text {
         top: 50%;
         left: 50%;
-        transform: rotate(-23deg) translate(-39%, 0);
+        transform: rotate(-22deg) translate(-39%, 0);
     }
 }
 
@@ -31609,4 +31609,11 @@ a.show-more__button:hover {
         }
     }
 
+}
+
+.home-cafe__tag{
+    position: absolute;
+    width: 25%;
+    top: 56%;
+    left: 58%;
 }
