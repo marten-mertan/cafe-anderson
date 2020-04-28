@@ -78,6 +78,7 @@ main {
 //------------------------------------------------кафе на главной*/
 
 .home-cafe {
+    display: flex;
     position: absolute;
     z-index: 3;
     top: 20%;
@@ -237,6 +238,7 @@ main {
 }
 
 .home-celebration {
+    display: flex;
     position: absolute;
     z-index: 2;
     bottom: -5px;
