@@ -1352,6 +1352,24 @@
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .filter-mix__item span { 
+        font-size: 70% !important;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .filter-mix__item span { 
+        font-size: 100% !important;
+    }
+    .filter-mix__item { 
+        margin-bottom: 1.5rem !important;
+    }
+    .filter-mix {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 1200px) {
 
     .c-caption-special__title {
