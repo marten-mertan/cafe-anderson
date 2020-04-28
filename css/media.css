@@ -1396,7 +1396,11 @@
     }
 
     .filter-mix__item span {
-        display: none;
+        display: block;
+    }
+
+    .filter-mix-purple__item span {
+        display: block;
     }
 
     .c-card-catalog__price {
