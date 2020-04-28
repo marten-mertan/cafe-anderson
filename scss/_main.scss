@@ -395,7 +395,7 @@ main {
     &__text {
         top: 50%;
         left: 50%;
-        transform: rotate(-22deg) translate(-39%, 0);
+        transform: rotate(-23deg) translate(-39%, 0);
     }
 }
 
@@ -412,6 +412,7 @@ main {
 }
 
 .home-cake {
+    display: flex;
     position: absolute;
     z-index: 1;
     right: -2%;
@@ -3360,7 +3361,6 @@ test popup
         justify-content: flex-start;
         //margin-bottom: 4.1rem;
         font-family: $font_serif;
-        margin-bottom: 2.3rem;
 
         &__item {
             display: flex;
@@ -9807,6 +9807,7 @@ test popup
 
         .order-delivery {
             margin: 0;
+            margin-bottom: 100px;
         }
 
         &__img {
@@ -32235,19 +32236,16 @@ a.show-more__button:hover {
     .delivery-club__link-text {
         max-width: 22vw;
     }
-
 }
 
 @media (min-width: 1280px) {
     .delivery-club__link-text {
         max-width: 15vw;
     }
-
 }
 
 @media (min-width: 1367px) {
     .delivery-club__link-text {
         max-width: 10vw;
     }
-
 }

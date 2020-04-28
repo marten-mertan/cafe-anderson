@@ -17,6 +17,8 @@
 @include font_face(ClearSans-Regular, 'Clear Sans','../fonts/', 400);
 @include font_face(OpenSans-Regular, 'Open Sans','../fonts/', 400);
 
+@include font_face(Leosler, 'Leosler','../fonts/', 400);
+
 $font_sans-serif: 'BebasNeue';
 $font_serif: 'PT Serif Caption';
 $font_decor: 'SummerFont';

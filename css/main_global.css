@@ -1802,6 +1802,13 @@ div {
   font-weight: 400;
   font-style: normal; }
 
+@font-face {
+  font-family: "Leosler";
+  src: url("../fonts/Leosler.eot");
+  src: url("../fonts/Leosler.eot?#iefix") format("embedded-opentype"), url("../fonts/Leosler.woff") format("woff"), url("../fonts/Leosler.ttf") format("truetype"), url("../fonts/Leosler.svg#Leosler") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
 .is-content-hidden .header,
 .is-content-hidden main,
 .is-content-hidden .header-navigation,
@@ -8563,9 +8570,9 @@ main {
 .v2 .home-celebration__text {
   top: 50%;
   left: 50%;
-  -webkit-transform: rotate(-22deg) translate(-39%, 0);
-      -ms-transform: rotate(-22deg) translate(-39%, 0);
-          transform: rotate(-22deg) translate(-39%, 0); }
+  -webkit-transform: rotate(-23deg) translate(-39%, 0);
+      -ms-transform: rotate(-23deg) translate(-39%, 0);
+          transform: rotate(-23deg) translate(-39%, 0); }
 
 @-webkit-keyframes bearMoon {
   0%, 100% {
@@ -8584,6 +8591,9 @@ main {
             transform: rotateZ(-14deg); } }
 
 .home-cake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   z-index: 1;
   right: -2%;
@@ -10722,8 +10732,7 @@ test popup
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    font-family: "PT Serif Caption";
-    margin-bottom: 2.3rem; }
+    font-family: "PT Serif Caption"; }
     .filter-mix__item {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -15582,7 +15591,8 @@ test popup
   .cake-order .cake-order__grid > .c-col-5:nth-child(1) {
     padding-right: 2.4rem; }
   .cake-order .order-delivery {
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 100px; }
   .cake-order__img img {
     width: 100%;
     height: auto; }
